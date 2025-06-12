@@ -1,6 +1,6 @@
 package com.company;
 
-public class prac2 {
+public class Operators {
     public static void main(String[] args) {
         // Arithematic Operators
         int a = 20;
