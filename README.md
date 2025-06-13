@@ -19,7 +19,7 @@ Covers various types of operators in Java.
 - Logical Operators (`&&`, `||`)
 - Bitwise Operators (`&`, `|`)
 
-### 3. `Main.java`
+### 3. `PercentageCalci.java`
 A console-based application that calculates the percentage of marks based on user input.
 
 **Features:**
