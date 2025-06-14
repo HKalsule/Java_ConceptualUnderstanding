@@ -18,6 +18,13 @@ public class LogicalOperators {
         else{
             System.out.println("False");
         }
+
+        System.out.println("For Logical NOT...");
+        System.out.print("The Value of NOT of a is ");
+        System.out.println(!a);
+        System.out.print("The Value of NOT of b is ");
+        System.out.println(!b);
+
     }
 }
     
