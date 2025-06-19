@@ -1,6 +1,6 @@
 # 📘 Java Basics Practice Repository
 
-This repository contains a curated collection of Java programs that demonstrate foundational programming concepts.
+This repository contains a curated collection of Java programs that demonstrate foundational programming concepts. 
 
 ---
 
@@ -9,7 +9,7 @@ This repository contains a curated collection of Java programs that demonstrate 
 ### 🧮 `Main.java`
 **Concept:** Percentage Calculation  
 **Description:**  
-Prompts the user to enter marks and total marks for five subjects. It calculates the total obtained marks, total possible marks, and computes the final percentage. A good exercise for understanding user input, float operations, and basic arithmetic.
+Prompts the user to enter marks and total marks for five subjects. It calculates the total obtained marks, total possible marks, and computes the final percentage.
 
 ---
 
@@ -21,8 +21,7 @@ Explores core operators in Java including:
 - Assignment (`=`, `+=`)
 - Comparison (`==`, `<`, `>`)
 - Logical (`&&`, `||`)
-- Bitwise (`&`, `|`)  
-This file provides a complete picture of how operators behave in Java.
+- Bitwise (`&`, `|`)
 
 ---
 
@@ -46,8 +45,7 @@ Illustrates the concept of method overloading where multiple methods share the s
 Covers:
 - Void and return-type methods
 - Parameter passing (by value and reference)
-- Behavior with primitive types vs. arrays  
-Useful for understanding method definition, invocation, and internal state modification.
+- Behavior with primitive types vs. arrays
 
 ---
 
@@ -72,7 +70,7 @@ Each loop runs from 0 to 10, showcasing syntax and usage differences.
 ### 📅 `LeapYear.java`
 **Concept:** Leap Year Logic  
 **Description:**  
-Takes a year as input and checks whether it is a leap year based on the standard leap year rules involving divisibility by 4, 100, and 400.
+Takes a year as input and checks whether it is a leap year based on standard divisibility rules.
 
 ---
 
@@ -83,7 +81,7 @@ Explores:
 - Logical AND (`&&`)
 - Logical OR (`||`)
 - Logical NOT (`!`)  
-Displays how logical expressions evaluate when combining boolean values.
+Displays how logical expressions evaluate with boolean values.
 
 ---
 
@@ -112,19 +110,43 @@ Uses the traditional `switch-case` syntax to map age input to life events. Demon
 **Concept:** Practice Problems  
 **Description:**  
 Includes three independent sub-programs:
-1. **Sum of N Even Numbers** – Uses `while` loop for sum calculation.
-2. **Multiplication Table** – Uses `for` loop to print a multiplication table for user input.
-3. **Factorial** – Calculates the factorial of a number using a decrementing `for` loop.
+1. **Sum of N Even Numbers**
+2. **Multiplication Table**
+3. **Factorial of a Number**  
+Each demonstrates use of loops, arithmetic, and user input.
 
 ---
 
 ### 🧵 `StringMethods.java`
 **Concept:** String Handling  
 **Description:**  
-Demonstrates common Java string methods such as:
+Demonstrates commonly used string methods like:
 - `length()`, `toLowerCase()`, `toUpperCase()`
 - `trim()`, `substring()`, `replace()`
-- `startsWith()`, `endsWith()`, `charAt()`, `indexOf()`  
-Great for understanding string manipulation and built-in Java functionality.
+- `startsWith()`, `endsWith()`, `charAt()`, `indexOf()`
+
+---
+
+### 🧮 `FactorialRecursion.java`
+**Concept:** Recursion vs Iteration  
+**Description:**  
+Compares two approaches for calculating the factorial of a number:
+- **Recursive approach**
+- **Iterative approach** using a `for` loop  
+Highlights the use of recursive function calls and control flow.
+
+---
+
+### 🌀 `FibbonacciSeries.java`
+**Concept:** Recursive Fibonacci Series  
+**Description:**  
+Prints the Fibonacci series up to a given number using a recursive function. Emphasizes understanding of recursion and function stack behavior.
+
+---
+
+### 📦 `VariableArguments.java`
+**Concept:** Variable-Length Arguments (VarArgs)  
+**Description:**  
+Illustrates how methods can accept a flexible number of arguments using `int...`. Demonstrates how to compute sum with varying input lengths, and explains why at least one fixed argument may be required.
 
 ---
